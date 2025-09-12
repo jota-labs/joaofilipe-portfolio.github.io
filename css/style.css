@@ -5,7 +5,7 @@ body {
 }
 
 .título-cabeçalho {
-  margin-top: 2rem;
+  margin-top: 0.5rem;
 }
 .título-cabeçalho h1 {
   display: inline;
@@ -25,12 +25,13 @@ body {
   text-decoration: none;
   color: black;
   margin-left: 2rem;
+  font-weight: bold;
 }
 
 .introdução {
   display: grid;
   grid-template-columns: auto 1fr;
-  max-width: 65rem;
+  max-width: 60rem;
   margin: 0 auto;
   margin-top: 4rem;
   gap: 6rem;
