@@ -32,7 +32,6 @@ body {
   display: grid;
   grid-template-columns: auto 1fr;
   max-width: 60rem;
-
   margin-top: 4rem;
   gap: 6rem;
   align-items: center;
@@ -54,32 +53,45 @@ body {
   left: -2rem;
 }
 
+.experiencia {
+  display: grid;
+  grid-template-columns: 20rem 2.5rem 1fr;
+  margin-top: 1rem;
+  align-items: center;
+  gap: 0.5rem;
+  word-wrap: break-word;
+}
+
 .titulos {
-  font-size: 3.5rem;
+  font-size: 4rem;
+  margin-top: 10rem;
   color: rgb(224, 221, 221);
 }
 
-.experiencia {
-  display: grid;
-  grid-template-columns: 19rem auto 1fr;
-  align-items: center;
-  gap: 2rem;
-  word-wrap: break-word;
+.anos {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  gap: 10.1rem;
+  align-self: flex-end;
+  margin-bottom: 8.6rem;
+  margin-left: 3rem;
 }
 
 .conteudo-experiencia {
   display: grid;
   margin-top: 10rem;
+  margin-left: 3rem;
   gap: 2rem;
 }
 .titulo-conteudo-experiencia {
   display: grid;
   max-width: 39rem;
-  background-color: rgb(237, 237, 237);
   border-radius: 7px;
   font-size: 1.4rem;
   padding: 1rem 1.5rem;
 }
+
 .titulo-conteudo-experiencia span {
   font-weight: bold;
 }
@@ -87,28 +99,54 @@ body {
 .descricao-experiencia {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 60rem;
+  max-width: 47rem;
   padding-left: 2rem;
   gap: 1.4rem;
   background-color: rgb(237, 237, 237);
   border-radius: 6px;
+  border-left: solid 0.2rem rgb(199, 44, 199);
 }
 
 .coluna-um {
   margin-bottom: 1.5rem;
 }
 
-.coluna-dois {
-  padding-right: 3rem;
+.atributos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-right: 1rem;
 }
 
-.atributos {
+.atributos p {
+  background-color: rgb(255, 255, 255);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin: 0rem;
+}
+
+.descricao-experiencia-surfbot {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 47rem;
+  padding-left: 2rem;
+  gap: 1.4rem;
+  background-color: rgb(237, 237, 237);
+  border-radius: 6px;
+  border-left: solid 0.2rem rgb(199, 44, 199);
+}
+
+.coluna-um-dois {
+  margin-bottom: 1.5rem;
+}
+
+.atributos-surfbot {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
 }
 
-.atributos p {
+.atributos-surfbot p {
   background-color: rgb(255, 255, 255);
   padding: 0.5rem 1rem;
   border-radius: 5px;
