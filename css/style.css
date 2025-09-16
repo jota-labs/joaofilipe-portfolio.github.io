@@ -87,11 +87,15 @@ body {
 .descricao-experiencia {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 57rem;
+  max-width: 60rem;
   padding-left: 2rem;
   gap: 1.4rem;
   background-color: rgb(237, 237, 237);
   border-radius: 6px;
+}
+
+.coluna-um {
+  margin-bottom: 1.5rem;
 }
 
 .coluna-dois {
@@ -100,11 +104,13 @@ body {
 
 .atributos {
   display: flex;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
 .atributos p {
   background-color: rgb(255, 255, 255);
-  padding: 1.5rem;
+  padding: 0.5rem 1rem;
   border-radius: 5px;
+  margin: 0rem;
 }
