@@ -53,3 +53,58 @@ body {
   top: 0.1rem;
   left: -2rem;
 }
+
+.titulos {
+  font-size: 3.5rem;
+  color: rgb(224, 221, 221);
+}
+
+.experiencia {
+  display: grid;
+  grid-template-columns: 19rem auto 1fr;
+  align-items: center;
+  gap: 2rem;
+  word-wrap: break-word;
+}
+
+.conteudo-experiencia {
+  display: grid;
+  margin-top: 10rem;
+  gap: 2rem;
+}
+.titulo-conteudo-experiencia {
+  display: grid;
+  max-width: 39rem;
+  background-color: rgb(237, 237, 237);
+  border-radius: 7px;
+  font-size: 1.4rem;
+  padding: 1rem 1.5rem;
+}
+.titulo-conteudo-experiencia span {
+  font-weight: bold;
+}
+
+.descricao-experiencia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 57rem;
+  padding-left: 2rem;
+  gap: 1.4rem;
+  background-color: rgb(237, 237, 237);
+  border-radius: 6px;
+}
+
+.coluna-dois {
+  padding-right: 3rem;
+}
+
+.atributos {
+  display: flex;
+  gap: 1rem;
+}
+
+.atributos p {
+  background-color: rgb(255, 255, 255);
+  padding: 1.5rem 1.5rem;
+  border-radius: 5px;
+}
