@@ -58,14 +58,14 @@ body {
   grid-template-columns: 24rem 1fr;
   margin-top: 1rem;
   align-items: center;
-  gap: 0.5rem;
+  gap: 4rem;
   width: 100%;
 }
 
 .titulos {
   font-size: 4rem;
   margin-top: 10rem;
-  margin-left: 5rem;
+  margin-left: 4rem;
   color: rgb(224, 221, 221);
   grid-column: 1;
   word-wrap: break-word;
@@ -73,14 +73,11 @@ body {
 
 .anos {
   display: flex;
-  flex-wrap: wrap;
-  font-size: 1rem;
-  gap: 10.1rem;
-  align-self: flex-end;
-  margin-bottom: 8.6rem;
-  margin-left: 3rem;
+  position: absolute;
+  left: -7rem;
+  margin-top: 1.5rem;
+  color: rgb(70, 70, 70);
   font-weight: bold;
-  color: rgb(75, 75, 75);
 }
 
 .conteudo-experiencia {
@@ -114,6 +111,7 @@ body {
 
 .coluna-um {
   margin-bottom: 1.5rem;
+  position: relative;
 }
 
 .atributos {
@@ -143,6 +141,7 @@ body {
 
 .coluna-um-dois {
   margin-bottom: 1.5rem;
+  position: relative;
 }
 
 .atributos-surfbot {
