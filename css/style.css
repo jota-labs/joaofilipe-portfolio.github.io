@@ -114,6 +114,10 @@ body {
   position: relative;
 }
 
+.coluna-um p {
+  margin: 0rem;
+}
+
 .atributos {
   display: flex;
   flex-wrap: wrap;
@@ -130,10 +134,10 @@ body {
 
 .descricao-experiencia-surfbot {
   display: grid;
-  grid-template-columns: 0.5fr 1fr;
+  grid-template-columns: 1fr 1fr;
   max-width: 47rem;
   padding-left: 2rem;
-  gap: 1.4rem;
+  gap: 1.5rem;
   background-color: rgb(237, 237, 237);
   border-radius: 6px;
   border-left: solid 0.2rem rgb(199, 44, 199);
@@ -142,6 +146,10 @@ body {
 .coluna-um-dois {
   margin-bottom: 1.5rem;
   position: relative;
+}
+
+.coluna-um-dois p {
+  margin: 0rem;
 }
 
 .atributos-surfbot {
@@ -215,15 +223,10 @@ p {
   padding-top: 1rem;
 }
 
-.margem-especial {
-  margin-bottom: 1.4rem;
-}
-
 .cursos-itensivos div {
   display: flex;
-  gap: 30rem;
+  place-content: space-between;
 }
-
-.ajuste-margem {
-  margin-left: 5.1rem;
+.ajuste-margem p {
+  margin: 0rem;
 }
