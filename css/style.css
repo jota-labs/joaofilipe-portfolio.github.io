@@ -1,11 +1,5 @@
-body {
-  display: grid;
-  margin: 0px;
-  padding: 0px;
-  font-family: Arial, Helvetica, sans-serif;
-  justify-items: center;
-  align-items: center;
-}
+@import "./global.css";
+@import "./header.css";
 
 .título-cabeçalho {
   display: flex;
@@ -254,4 +248,25 @@ p {
   position: absolute;
   top: 1.5rem;
   left: -6.5rem;
+}
+
+.cabeçalho {
+  background-color: black;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.9fr 1fr;
+  height: 35rem;
+  align-items: center;
+  gap: 10rem;
+}
+
+.descricao-cabeçalho p {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(180, 179, 179);
+}
+
+.informacoes-contato {
+  color: white;
 }
