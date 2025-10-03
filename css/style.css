@@ -82,7 +82,7 @@ body {
 .conteudo-experiencia {
   display: grid;
   margin-top: 10rem;
-  margin-left: 15rem;
+  margin-left: 8rem;
   gap: 2rem;
 }
 .titulo-conteudo-experiencia {
@@ -100,7 +100,7 @@ body {
 .descricao-experiencia {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 47rem;
+  max-width: 40rem;
   padding-left: 2rem;
   gap: 1.4rem;
   background-color: rgb(237, 237, 237);
@@ -134,7 +134,7 @@ body {
 .descricao-experiencia-surfbot {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 47rem;
+  max-width: 40rem;
   padding-left: 2rem;
   gap: 1.5rem;
   background-color: rgb(237, 237, 237);
@@ -186,7 +186,7 @@ body {
   word-wrap: break-word;
   max-width: 100%;
   grid-column: 1;
-  margin-left: 15rem;
+  margin-left: 7.5rem;
   margin-top: 2rem;
 }
 
@@ -214,6 +214,7 @@ body {
   border-left: solid 0.2rem rgb(124, 6, 124);
   align-content: space-between;
   word-wrap: break-word;
+  gap: 2.7rem;
 }
 
 .card-um h2,
