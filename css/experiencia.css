@@ -75,7 +75,7 @@
     grid-template-columns: 1fr;
     gap: 30px;
   }
-  .subtitulo {
+  .experiencia .subtitulo {
     color: #141414;
   }
   .experiencia-texto {
