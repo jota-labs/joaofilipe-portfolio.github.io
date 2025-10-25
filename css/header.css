@@ -29,4 +29,9 @@
   .header-menu {
     justify-content: center;
   }
+  .header-menu li {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
 }

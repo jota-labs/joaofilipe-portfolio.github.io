@@ -46,9 +46,14 @@
   }
 }
 
-@media (max-width: 400px) {
-  .introducao h1::before {
-    display: none;
+@media (max-width: 500px) {
+  .introducao {
     grid-template-columns: 1fr;
+  }
+  .introducao h1 {
+    font-size: 2.5rem;
+  }
+  .introducao img {
+    display: none;
   }
 }
